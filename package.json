@@ -1,0 +1,16 @@
+{
+	"name": "erdblock-rss",
+	"version": "0.0.0",
+	"description": "",
+	"private": true,
+	"dependencies": {
+		"async": "x",
+		"feedparser": "x",
+		"request": "x",
+		"jade": "x",
+		"fs": "x",
+		"is_js": "x",
+		"cron": "x",
+		"cron": "x"
+	}
+}

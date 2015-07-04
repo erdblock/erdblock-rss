@@ -1,0 +1,10 @@
+h1(style="background-image:url(./plugin/"+uuid+"/public/icon.png)")
+	a(href=link) #{config.title.value}
+- if (config.url.value!= null) {
+	h2 #{url}
+- }
+ul
+	- results.items.forEach(function(item){
+		li
+			a(href=item.link) #{item.title}
+	- })
